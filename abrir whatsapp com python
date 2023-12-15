@@ -1,0 +1,12 @@
+import time
+import pyautogui
+import webbrowser
+
+# URL do WhatsApp Web
+url_whatsapp_web = "https://web.whatsapp.com/"
+
+# Abrir o navegador e navegar para o WhatsApp Web
+webbrowser.open(url_whatsapp_web)
+
+# Aguardar alguns segundos para o usuário fazer a leitura do código QR
+time.sleep(10)  # Ajuste o tempo conforme necessário
